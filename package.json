@@ -1,0 +1,8 @@
+{
+  "name": "security-demo",
+  "version": "1.0.0",
+  "dependencies": {
+    "express": "4.16.0",
+    "lodash": "4.17.4"
+  }
+}
