@@ -1,0 +1,7 @@
+version: 2
+updates:
+  - package-ecosystem: "npm" # It will look for your package.json
+    directory: "/"           # Root folder
+    schedule:
+      interval: "daily"      # Check every day for new versions
+    open-pull-requests-limit: 10 # Allow up to 10 PRs at once
